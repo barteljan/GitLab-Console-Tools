@@ -1,6 +1,9 @@
 {
   "name": "barteljan/gitlab_console_tools",
-  "description": "Some tools for using gitlab on the console",
+  "license": "MIT",
+  "type": "symfony2-console",
+  "description": "Some tools for using GitLab on the console. Contains a command to clone all repos from a specific GitLab group",
+  "homepage": "https://github.com/barteljan/GitLab-Console-Tools",
   "require": {
     "php": ">=5.3.3",
     "symfony/console": "2.4.x-dev",
@@ -11,5 +14,11 @@
     "psr-0": {
       "": "src/"
     }
-  }
+  },
+  "authors": [
+    {
+      "name": "Jan Bartel",
+      "email": "barteljan@yahoo.de"
+    }
+  ]
 }
