@@ -34,7 +34,7 @@ You need ssh-auth for that.
 
 Usage:
 
-<info>php console.php gitlab:clone:group -p"/path/to/your/gitlab" -g"YourGitlabGroup" -t"YourApiToken"</info>
+<info>gitlab-tools.phar clone:group -p"/path/to/your/gitlab" -g"YourGitlabGroup" -t"YourApiToken"</info>
 
 EOT
             );

@@ -16,6 +16,6 @@
   ],
   "git-version": "package_version",
   "main": "bin/git-lab-tools",
-  "output": "git-lab-tools.phar",
+  "output": "gitlab-tools.phar",
   "stub": true
 }

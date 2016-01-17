@@ -4,5 +4,5 @@ Some tools for using GitLab on the console.
 
 ###Clone all repos from a specific group###
 ```
-php console.php gitlab:clone:group -p"/path/to/your/gitlab" -g"YourGitlabGroup" -t"YourApiToken"
+gitlab-tools.phar clone:group -p"/path/to/your/gitlab" -g"YourGitlabGroup" -t"YourApiToken"
 ```
