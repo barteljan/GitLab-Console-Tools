@@ -21,7 +21,7 @@ class CloneFromGroupCommand extends Command{
     protected function configure()
     {
 
-        $this->setName("gitlab:clone:group")
+        $this->setName("clone:group")
             ->setDescription("Clone all repositories from a gitlab group.")
             ->setDefinition(array(
                 new InputOption('path', 'p', InputOption::VALUE_REQUIRED, 'Path to your gitlab instance'),
